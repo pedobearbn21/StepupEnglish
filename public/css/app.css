@@ -23792,3 +23792,13 @@ input[type=color].form-control:disabled {
   margin-bottom: 30px;
 }
 
+.navbar-position {
+  background: #ffffff;
+  border: none;
+  position: fixed;
+  z-index: 10;
+  margin: 0.5rem;
+  left: 0px;
+  right: 0px;
+}
+
