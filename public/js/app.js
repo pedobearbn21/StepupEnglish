@@ -1850,6 +1850,45 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -65795,22 +65834,68 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _c(
-      "div",
-      { staticClass: "row justify-content-center " },
-      [
-        _c("b-card", { staticClass: "text-center backgroundcard" }, [
-          _c("div", { staticClass: "bodycard text-light" }, [
-            _vm._v("\n            ทดลองcustom css\n            ")
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container  lesson" }, [
+      _c("div", { staticClass: "row selectlessson" }, [
+        _c("div", { staticClass: "col cropcard" }, [
+          _c("div", { staticClass: "card bodycard cardlesson" }, [
+            _c("div", { staticClass: "card-header" }, [_vm._v("บทที่หนึ่ง")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card-body" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col cropcard" }, [
+          _c("div", { staticClass: "card bodycard cardlesson" }, [
+            _c("div", { staticClass: "card-header" }, [_vm._v("บทที่สอง")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card-body" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col cropcard" }, [
+          _c("div", { staticClass: "card bodycard cardlesson" }, [
+            _c("div", { staticClass: "card-header" }, [_vm._v("บทที่สาม")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card-body" })
           ])
         ])
-      ],
-      1
-    )
-  ])
-}
-var staticRenderFns = []
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row selectlessson" }, [
+        _c("div", { staticClass: "col cropcard" }, [
+          _c("div", { staticClass: "card bodycard cardlesson" }, [
+            _c("div", { staticClass: "card-header" }, [_vm._v("บทที่สี่")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card-body" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col cropcard" }, [
+          _c("div", { staticClass: "card bodycard cardlesson" }, [
+            _c("div", { staticClass: "card-header" }, [_vm._v("บทที่ห้า")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card-body " })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col cropcard" }, [
+          _c("div", { staticClass: "card bodycard cardlesson" }, [
+            _c("div", { staticClass: "card-header" }, [_vm._v("บทที่หก")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card-body" })
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 

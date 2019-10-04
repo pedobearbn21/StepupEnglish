@@ -23750,6 +23750,24 @@ input[type=color].form-control:disabled {
   border-radius: 31px;
 }
 
+.selectlessson {
+  padding-top: 50px !important;
+}
+
+.lesson {
+  text-align: center;
+  font-size: 16px;
+}
+
+.cardlesson {
+  height: 200px;
+  width: 80%;
+}
+
+.cropcard {
+  text-align: -webkit-center;
+}
+
 .full-height {
   height: 100vh;
 }
@@ -23793,12 +23811,20 @@ input[type=color].form-control:disabled {
 }
 
 .navbar-position {
-  background: #ffffff;
+  background: #3E367E;
   border: none;
   position: fixed;
   z-index: 10;
   margin: 0.5rem;
   left: 0px;
   right: 0px;
+  height: 60px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 31px;
+  color: white !important;
+}
+
+.navbar-light {
+  color: white !important;
 }
 
