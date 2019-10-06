@@ -1,0 +1,31 @@
+.head-card{
+    border-radius: inherit !important;
+    background-color: #3EF0C5;
+    width: 80%;
+    margin: auto;
+
+}
+.vertical-last {
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  padding:2px;
+}
+.buttonmenu {
+    position: absolute;
+    z-index: 12;
+    bottom: 105%;
+    -ms-transform: translateY(110%);
+    transform: translateY(110%);
+    align-items: center;
+    border-radius: 30px !important;
+}
+.fullvh {
+    height:95vh;
+    min-height: 95vh;
+    top: 100%;
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+}

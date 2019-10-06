@@ -23746,7 +23746,7 @@ input[type=color].form-control:disabled {
   background-color: #3E367E;
   color: white;
   background: #3E367E;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   border-radius: 31px;
 }
 
@@ -23833,40 +23833,6 @@ input[type=color].form-control:disabled {
   border: none;
 }
 
-.sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidebar a:hover {
-  color: #f1f1f1;
-}
-
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
 .openbtn:hover {
   background-color: #444;
 }
@@ -23886,5 +23852,88 @@ input[type=color].form-control:disabled {
   .sidebar a {
     font-size: 18px;
   }
+}
+
+.sidenav {
+  width: 0;
+  position: absolute;
+  z-index: 11;
+  top: 0;
+  left: 0;
+  background-color: #2C275E;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 0px;
+  height: 95vh;
+  min-height: 95vh;
+  top: 100%;
+  transform: translateY(-100%);
+}
+
+.opa {
+  opacity: 0.5;
+  background-color: black;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: relative;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.head-card {
+  border-radius: inherit !important;
+  background-color: #3EF0C5;
+  width: 80%;
+  margin: auto;
+}
+
+.vertical-last {
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  transform: translateY(-100%);
+  padding: 2px;
+}
+
+.buttonmenu {
+  position: absolute;
+  z-index: 12;
+  bottom: 105%;
+  transform: translateY(110%);
+  align-items: center;
+  border-radius: 30px !important;
+}
+
+.fullvh {
+  height: 95vh;
+  min-height: 95vh;
+  top: 100%;
+  transform: translateY(-100%);
 }
 

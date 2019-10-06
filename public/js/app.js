@@ -1919,7 +1919,31 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+    };
+  },
+  methods: {
+    submit: function submit() {
+      this.$refs.form.submit();
+    }
+  }
+});
 
 /***/ }),
 
@@ -65946,32 +65970,107 @@ var render = function() {
   return _c(
     "b-card",
     {
-      staticClass: "navcard",
-      attrs: { title: "Title", "header-tag": "header", "footer-tag": "footer" },
+      staticClass: "bodycard fullvh",
+      attrs: { "header-tag": "header", "footer-tag": "footer" },
       scopedSlots: _vm._u([
-        {
-          key: "header",
-          fn: function() {
-            return [_c("h6", { staticClass: "mb-0" }, [_vm._v("Header Slot")])]
-          },
-          proxy: true
-        },
         {
           key: "footer",
           fn: function() {
-            return [_c("em", [_vm._v("Footer Slot")])]
+            return [
+              _c(
+                "b-button",
+                {
+                  attrs: {
+                    block: "",
+                    onclick:
+                      "event.preventDefault(); document.getElementById('logout-form').submit();"
+                  }
+                },
+                [_vm._v("Sign Out")]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-form",
+                {
+                  staticStyle: { display: "none" },
+                  attrs: { id: "logout-form", action: "logout", method: "POST" }
+                },
+                [
+                  _c("input", {
+                    attrs: { type: "hidden", name: "_token" },
+                    domProps: { value: _vm.csrf }
+                  })
+                ]
+              )
+            ]
           },
           proxy: true
         }
       ])
     },
     [
+      _c("div", { staticClass: "card-header head-card buttonmenu" }, [
+        _c("a", { attrs: { href: "" } }, [
+          _c("h5", { staticClass: "mb-0" }, [_vm._v("Menu")])
+        ])
+      ]),
       _vm._v(" "),
-      _c("b-card-text", [_vm._v("Header and footers using slots.")]),
+      _c(
+        "b-card-text",
+        [
+          _c("b-link", { attrs: { href: "" } }, [
+            _c("h5", { staticClass: "mb-0" }, [_vm._v("Home")])
+          ])
+        ],
+        1
+      ),
       _vm._v(" "),
-      _c("b-button", { attrs: { href: "#", variant: "primary" } }, [
-        _vm._v("Go somewhere")
-      ])
+      _c(
+        "b-card-text",
+        {
+          directives: [
+            {
+              name: "b-toggle",
+              rawName: "v-b-toggle.collapse-1",
+              modifiers: { "collapse-1": true }
+            }
+          ]
+        },
+        [
+          _c("b-link", { attrs: { href: "" } }, [
+            _c("h5", { staticClass: "mb-0" }, [_vm._v("Lesson")])
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-collapse",
+        { staticClass: "mt-2 text-center", attrs: { id: "collapse-1" } },
+        [
+          _c("p", { staticClass: "card-text" }, [_vm._v("Lesson 1")]),
+          _vm._v(" "),
+          _c("p", { staticClass: "card-text" }, [_vm._v("Lesson 2")]),
+          _vm._v(" "),
+          _c("p", { staticClass: "card-text" }, [_vm._v("Lesson 3")]),
+          _vm._v(" "),
+          _c("p", { staticClass: "card-text" }, [_vm._v("Lesson 4")]),
+          _vm._v(" "),
+          _c("p", { staticClass: "card-text" }, [_vm._v("Lesson 5")]),
+          _vm._v(" "),
+          _c("p", { staticClass: "card-text" }, [_vm._v("Lesson 6")])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "b-card-text",
+        [
+          _c("b-link", { attrs: { href: "" } }, [
+            _c("h5", { staticClass: "mb-0" }, [_vm._v("Check Class")])
+          ])
+        ],
+        1
+      )
     ],
     1
   )
