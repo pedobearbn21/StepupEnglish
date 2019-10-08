@@ -17,15 +17,21 @@ import lesson4 from './components/Lesson4Component.vue'
 import lesson5 from './components/Lesson5Component.vue'
 import lesson6 from './components/Lesson6Component.vue'
 import example from './components/ExampleComponent.vue'
+import Vuetify from 'vuetify'
+import '@fortawesome/fontawesome-free/css/all.css'
+import '@fortawesome/fontawesome-free/js/all.js'
+import VueSweetalert2 from 'vue-sweetalert2';
+import 'sweetalert2/dist/sweetalert2.min.css';
 
-
-
+Vue.use(Vuetify)
 Vue.use(BootstrapVue)
 Vue.use(VueRouter)
+Vue.use(VueSweetalert2);
 
 
 
 window.Vue = require('vue');
+
 
 /**
  * The following block of code may be used to automatically register your
@@ -42,6 +48,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 Vue.component('navcard-component', require('./components/NavcardComponent.vue').default);
 Vue.component('lesson1-component', require('./components/Lesson1Component.vue').default);
 Vue.component('layout-component', require('./components/LayoutComponent.vue').default);
+Vue.component('translate-component', require('./components/TranslateComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

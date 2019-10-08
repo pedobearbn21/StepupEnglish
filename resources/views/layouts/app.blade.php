@@ -16,8 +16,11 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
+
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css" rel="stylesheet">
 </head>
 <body class='backgroundcard'>
     <div id="app">
@@ -81,7 +84,14 @@
         <main class="py-4 flex-center position-ref full-height">
         <router-view></router-view>
             @yield('content')
+
         </main>
+        <div class="fixed-bottom">
+            <div class="float-right">
+                <layout-component></layout-component>
+            </div>
+        </div>
+
     </div>
     <script>
             function openNav() {
