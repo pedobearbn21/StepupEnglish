@@ -5,11 +5,22 @@
  */
 
 require('./bootstrap');
+
+
 import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
+import VueRouter from 'vue-router'
+import lesson1 from './components/Lesson1Component.vue'
+import lesson2 from './components/Lesson2Component.vue'
+import lesson3 from './components/Lesson3Component.vue'
+import lesson4 from './components/Lesson4Component.vue'
+import lesson5 from './components/Lesson5Component.vue'
+import lesson6 from './components/Lesson6Component.vue'
+
 
 
 Vue.use(BootstrapVue)
+Vue.use(VueRouter)
 
 
 
@@ -28,6 +39,8 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('navcard-component', require('./components/NavcardComponent.vue').default);
+Vue.component('lesson1-component', require('./components/Lesson1Component.vue').default);
+Vue.component('layout-component', require('./components/LayoutComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -35,6 +48,20 @@ Vue.component('navcard-component', require('./components/NavcardComponent.vue').
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+const routes = [
+    { path: '/lesson1',component: lesson1 },
+    { path: '/lesson2',component: lesson2 },
+    { path: '/lesson3',component: lesson3 },
+    { path: '/lesson4',component: lesson4 },
+    { path: '/lesson5',component: lesson5 },
+    { path: '/lesson6',component: lesson6 },
+]
+
+const router = new VueRouter({
+    routes
+})
+
 const app = new Vue({
+    router,
     el: '#app',
 });

@@ -17,6 +17,7 @@
         </div>
     </div>
 </div> -->
-
 <example-component></example-component>
+<layout-component></layout-component>
+
 @endsection

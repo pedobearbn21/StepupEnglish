@@ -9,12 +9,12 @@
       <b-card-text><b-link href=''><h5 class="mb-0">Home</h5></b-link></b-card-text>
       <b-card-text v-b-toggle.collapse-1><b-link href=''><h5 class="mb-0">Lesson</h5></b-link></b-card-text>
       <b-collapse id="collapse-1" class="mt-2 text-center">
-            <p class="card-text">Lesson 1</p>
-            <p class="card-text">Lesson 2</p>
-            <p class="card-text">Lesson 3</p>
-            <p class="card-text">Lesson 4</p>
-            <p class="card-text">Lesson 5</p>
-            <p class="card-text">Lesson 6</p>
+            <router-link to="/lesson1" ><h6 class="card-text">Lesson 1</h6></router-link>
+            <router-link to="/lesson2" ><h6 class="card-text">Lesson 2</h6></router-link>
+            <router-link to="/lesson3" ><h6 class="card-text">Lesson 3</h6></router-link>
+            <router-link to="/lesson4" ><h6 class="card-text">Lesson 4</h6></router-link>
+            <router-link to="/lesson5" ><h6 class="card-text">Lesson 5</h6></router-link>
+            <router-link to="/lesson6" ><h6 class="card-text">Lesson 6</h6></router-link>
       </b-collapse>
       <b-card-text><b-link href=''><h5 class="mb-0">Check Class</h5></b-link></b-card-text>
 
