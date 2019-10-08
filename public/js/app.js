@@ -1910,6 +1910,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -2042,6 +2044,13 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -66106,7 +66115,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("router-view")
+  return _c("div")
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -66284,8 +66293,27 @@ var render = function() {
           key: "header",
           fn: function() {
             return [
-              _c("a", { attrs: { href: "" } }, [
-                _c("h5", { staticClass: "mb-0" }, [_vm._v("Menu")])
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-7 align-self-center" }, [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("h4", { staticClass: "mb-0" }, [_vm._v("Menu")])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-5 pr-2" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "closebtn",
+                      staticStyle: { padding: "1px" },
+                      attrs: {
+                        href: "javascript:void(0)",
+                        onclick: "closeNav()"
+                      }
+                    },
+                    [_vm._v("×")]
+                  )
+                ])
               ])
             ]
           },
@@ -81458,12 +81486,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Lesson4Component_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Lesson4Component.vue */ "./resources/js/components/Lesson4Component.vue");
 /* harmony import */ var _components_Lesson5Component_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/Lesson5Component.vue */ "./resources/js/components/Lesson5Component.vue");
 /* harmony import */ var _components_Lesson6Component_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Lesson6Component.vue */ "./resources/js/components/Lesson6Component.vue");
+/* harmony import */ var _components_ExampleComponent_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue");
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
 
 
 

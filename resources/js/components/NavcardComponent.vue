@@ -4,7 +4,14 @@
                 <a href=''><h5 class="mb-0">Menu</h5></a>
             </div> -->
       <template v-slot:header>
-          <a href=''><h5 class="mb-0">Menu</h5></a>
+          <div class="row">
+              <div class="col-7 align-self-center">
+                  <a href=''><h4 class="mb-0">Menu</h4></a>
+              </div>
+              <div class="col-5 pr-2">
+                  <a href="javascript:void(0)" class="closebtn" style="padding:1px" onclick="closeNav()">&times;</a>
+              </div>
+          </div>
       </template>
       <b-card-text><b-link href=''><h5 class="mb-0">Home</h5></b-link></b-card-text>
       <b-card-text v-b-toggle.collapse-1><b-link href=''><h5 class="mb-0">Lesson</h5></b-link></b-card-text>

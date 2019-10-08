@@ -16,6 +16,7 @@ import lesson3 from './components/Lesson3Component.vue'
 import lesson4 from './components/Lesson4Component.vue'
 import lesson5 from './components/Lesson5Component.vue'
 import lesson6 from './components/Lesson6Component.vue'
+import example from './components/ExampleComponent.vue'
 
 
 
