@@ -1,8 +1,11 @@
 <template>
     <b-card header-tag="header" footer-tag="footer" class="bodycard fullvh">
-            <div class="card-header head-card buttonmenu">
+            <!-- <div class="card-header head-card buttonmenu">
                 <a href=''><h5 class="mb-0">Menu</h5></a>
-            </div>
+            </div> -->
+      <template v-slot:header>
+          <a href=''><h5 class="mb-0">Menu</h5></a>
+      </template>
       <b-card-text><b-link href=''><h5 class="mb-0">Home</h5></b-link></b-card-text>
       <b-card-text v-b-toggle.collapse-1><b-link href=''><h5 class="mb-0">Lesson</h5></b-link></b-card-text>
       <b-collapse id="collapse-1" class="mt-2 text-center">

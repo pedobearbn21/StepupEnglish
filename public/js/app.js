@@ -1932,6 +1932,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -65974,6 +65977,17 @@ var render = function() {
       attrs: { "header-tag": "header", "footer-tag": "footer" },
       scopedSlots: _vm._u([
         {
+          key: "header",
+          fn: function() {
+            return [
+              _c("a", { attrs: { href: "" } }, [
+                _c("h5", { staticClass: "mb-0" }, [_vm._v("Menu")])
+              ])
+            ]
+          },
+          proxy: true
+        },
+        {
           key: "footer",
           fn: function() {
             return [
@@ -66009,11 +66023,6 @@ var render = function() {
       ])
     },
     [
-      _c("div", { staticClass: "card-header head-card buttonmenu" }, [
-        _c("a", { attrs: { href: "" } }, [
-          _c("h5", { staticClass: "mb-0" }, [_vm._v("Menu")])
-        ])
-      ]),
       _vm._v(" "),
       _c(
         "b-card-text",
