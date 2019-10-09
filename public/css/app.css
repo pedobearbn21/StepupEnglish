@@ -23819,8 +23819,7 @@ input[type=color].form-control:disabled {
 .navbar-position {
   background: #3E367E;
   border: none;
-  position: -webkit-sticky;
-  position: sticky;
+  position: inherit;
   z-index: 10;
   margin: 0.5rem;
   left: 0px;
