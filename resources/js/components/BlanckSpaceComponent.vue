@@ -1,5 +1,5 @@
 <template>
-    <text class="spaceright"></text>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
 </template>
 
 
