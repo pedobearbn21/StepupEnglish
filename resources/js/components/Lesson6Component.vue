@@ -52,30 +52,44 @@
             </tr>
             <tr>
             <th scope="row">7</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td class="text-left">@mdo</td>
+            <td>contain</td>
+            <td>v.</td>
+            <td class="text-left">To have something inside or include something as a part.</td>
             </tr>
             <tr>
             <th scope="row">8</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td class="text-left">@mdo</td>
+            <td>affiliation</td>
+            <td>n.</td>
+            <td class="text-left">A connection with a political party ro religion, or with a larger or gonization.</td>
             </tr>
             <tr>
             <th scope="row">9</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td class="text-left">@mdo</td>
+            <td>certificayion</td>
+            <td>n.</td>
+            <td class="text-left">Proof or a document proving that something is qualified for a particular job, or that something is of good quality.</td>
             </tr>
             <tr>
             <th scope="row">10</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td class="text-left">@mdo</td>
+            <td>organized</td>
+            <td>adj.</td>
+            <td class="text-left">Arranged according to a particular system.</td>
             </tr>
         </tbody>
         </table>
+
+            <div>
+      <b-card no-body class="text-center">          
+        <div class="bg-secondary text-light">
+            <div class="text-left">
+                Vocabulary Exercise
+                <p>Directions: Choose the best answer.</p>
+
+
+            </div> 
+          
+        </div>
+      </b-card>
+    </div>
     </div>
 
 </template>
