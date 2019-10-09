@@ -98,6 +98,12 @@
                 <p>1. The idea with young children is to _______ learning with play.</p>
                 <p>2. The participants in this study _______ of 27 males and 31 females.</p>
                 <p>3. Many education studens decide to do their internship training at famous _______ institutions.</p>
+                <p>4. An international environmental _______ was established for the interchange of new approaches</p>
+                <p>5. Your project _______ a large  amount os money to complete.</p>
+                <p>6. The customer service department received a complaint from one of our clients about _______ language use of the staff</p>
+                <p>7. Learning objecttives should be _______ to the studens' needs.</p>
+                <p>8. </p>
+
             </div> 
           
         </div>
