@@ -16,22 +16,65 @@
         <tbody>
             <tr>
             <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td>drop</td>
+            <td>v.</td>
+            <td class="text-left">To fall or to move to a lower level</td>
             </tr>
             <tr>
             <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td>remain steady</td>
+            <td>v.</td>
+            <td class="text-left">To stay the same</td>
             </tr>
             <tr>
             <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
+            <td>increase</td>
+            <td>v.</td>
+            <td class="text-left">To make something become larger in amount or size</td>
             </tr>
+            <tr>
+            <th scope="row">4</th>
+            <td>decrease</td>
+            <td>v.</td>
+            <td class="text-left">To become less, or to make something become less</td>
+            </tr>
+            <tr>
+            <th scope="row">5</th>
+            <td>fluctuate</td>
+            <td>v.</td>
+            <td class="text-left">To change, espeacially continuously and between one level or one thing and another</td>
+            </tr>
+            <tr>
+            <th scope="row">6</th>
+            <td>dramatically</td>
+            <td>adv.</td>
+            <td class="text-left">Suddenly or obviously</td>
+            </tr>
+            <tr>
+            <th scope="row">7</th>
+            <td>remain(ed) stable</td>
+            <td>v.</td>
+            <td class="text-left">To stay the same</td>
+            </tr>
+            <tr>
+            <th scope="row">8</th>
+            <td>grow</td>
+            <td>v.</td>
+            <td class="text-left">to increase in size or amount, or to become more advanced or developed</td>
+            </tr>
+            <tr>
+            <th scope="row">9</th>
+            <td>gradually</td>
+            <td>adv.</td>
+            <td class="text-left">Slowly over a period of time or a distance</td>
+            </tr>
+            <tr>
+            <th scope="row">10</th>
+            <td>slightly</td>
+            <td>adv.</td>
+            <td class="text-left">a little</td>
+            </tr>
+            <h1></h1>
         </tbody>
         </table>
     </div>
