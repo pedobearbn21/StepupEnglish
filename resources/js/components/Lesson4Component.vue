@@ -73,8 +73,26 @@
             <td>slightly</td>
             <td>adv.</td>
             <td class="text-left">a little</td>
+            </tr>       
+        </tbody>
+        </table>
+        <br>
+        <table class="table bodycard table-borderless text-center table-hover">
+        <thead>
+            <tr>
+            <th scope="col">#</th>
+            <th scope="col">Word</th>
+            <th scope="col">Part of Speech</th>
+            <th scope="col">Mean</th>
             </tr>
-            <h1></h1>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">1</th>
+            <td>drop</td>
+            <td>v.</td>
+            <td class="text-left">To fall or to move to a lower level</td>
+            </tr>       
         </tbody>
         </table>
     </div>
