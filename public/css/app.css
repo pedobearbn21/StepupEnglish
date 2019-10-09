@@ -23816,6 +23816,10 @@ input[type=color].form-control:disabled {
   margin-bottom: 30px;
 }
 
+.font-big {
+  font-size: 24px;
+}
+
 .navbar-position {
   background: #3E367E;
   border: none;
