@@ -23750,6 +23750,12 @@ input[type=color].form-control:disabled {
   border-radius: 31px;
 }
 
+.lessoncard {
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%, -50%);
+}
+
 .selectlessson {
   padding-top: 50px !important;
 }

@@ -11,7 +11,6 @@
       <template v-slot:activator>
         <v-btn
           v-model="fab"
-          color="blue darken-2"
           fab
         >
           <i  class="fas fa-book fa-2x"></i>
@@ -20,7 +19,6 @@
       <v-btn
         fab
         small
-        color="green"
       >
         <translate-component></translate-component>
       </v-btn>

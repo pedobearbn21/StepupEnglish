@@ -22,7 +22,9 @@ import '@fortawesome/fontawesome-free/css/all.css'
 import '@fortawesome/fontawesome-free/js/all.js'
 import VueSweetalert2 from 'vue-sweetalert2';
 import 'sweetalert2/dist/sweetalert2.min.css';
+import axios from 'axios';
 
+Vue.use(axios)
 Vue.use(Vuetify)
 Vue.use(BootstrapVue)
 Vue.use(VueRouter)
