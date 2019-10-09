@@ -16,21 +16,63 @@
         <tbody>
             <tr>
             <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td>attribute</td>
+            <td>n.</td>
+            <td class="text-left">A quality or characteristic that someone or something has.</td>
             </tr>
             <tr>
             <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td>accomplishment</td>
+            <td>n.</td>
+            <td class="text-left">Something that is successful, or that is achieved after a lot of work or effort.</td>
             </tr>
             <tr>
             <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
+            <td>capability</td>
+            <td>n.</td>
+            <td class="text-left">The ability to do somyhing.</td>
+            </tr>
+            <tr>
+            <th scope="row">4</th>
+            <td>apply (fon)</td>
+            <td>v.</td>
+            <td class="text-left">To request something, usually officially, especially in writing or by sending in a form.</td>
+            </tr>
+            <tr>
+            <th scope="row">5</th>
+            <td>scholarship</td>
+            <td>n.</td>
+            <td class="text-left">An amount of money given by a school pay for the studies of a person.</td>
+            </tr>
+            <tr>
+            <th scope="row">6</th>
+            <td>demonstrate</td>
+            <td>v.</td>
+            <td class="text-left">To show or make something clear.</td>
+            </tr>
+            <tr>
+            <th scope="row">7</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td class="text-left">@mdo</td>
+            </tr>
+            <tr>
+            <th scope="row">8</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td class="text-left">@mdo</td>
+            </tr>
+            <tr>
+            <th scope="row">9</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td class="text-left">@mdo</td>
+            </tr>
+            <tr>
+            <th scope="row">10</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td class="text-left">@mdo</td>
             </tr>
         </tbody>
         </table>
