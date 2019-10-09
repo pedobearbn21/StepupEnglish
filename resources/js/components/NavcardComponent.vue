@@ -1,5 +1,5 @@
 <template>
-    <b-card header-tag="header" footer-tag="footer" class="bodycard fullvh">
+    <b-card header-tag="header" footer-tag="footer" class="bodycard fullvh" text-variant="white" >
             <!-- <div class="card-header head-card buttonmenu">
                 <a href=''><h5 class="mb-0">Menu</h5></a>
             </div> -->
