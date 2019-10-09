@@ -17,6 +17,7 @@ import lesson4 from './components/Lesson4Component.vue'
 import lesson5 from './components/Lesson5Component.vue'
 import lesson6 from './components/Lesson6Component.vue'
 import example from './components/ExampleComponent.vue'
+import checkclass from './components/CheckComponent.vue'
 import Vuetify from 'vuetify'
 import '@fortawesome/fontawesome-free/css/all.css'
 import '@fortawesome/fontawesome-free/js/all.js'
@@ -51,6 +52,7 @@ Vue.component('navcard-component', require('./components/NavcardComponent.vue').
 Vue.component('lesson1-component', require('./components/Lesson1Component.vue').default);
 Vue.component('layout-component', require('./components/LayoutComponent.vue').default);
 Vue.component('translate-component', require('./components/TranslateComponent.vue').default);
+Vue.component('checkclass-component', require('./components/CheckComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
