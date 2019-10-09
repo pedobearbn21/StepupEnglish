@@ -88,26 +88,73 @@
         </tr>
       </tbody>
     </table>
+    <p></p>
+    <div>
+      <b-card class="bodycard text-left">
+          Exercise
+          <p>Fill in the blanks with the most appropriate words.</p>
+          <p>1. The idea with young children is to _______ learning with play.</p>
+          <p>2. The participants in this study _______ of 27 males and 31 females.</p>
+          <p>3. Many education studens decide to do their internship training at famous _______ institutions.</p>
+          <p>4. An international environmental _______ was established for the interchange of new approaches</p>
+          <p>5. Your project _______ a large amount os money to complete.</p>
+          <p>6. The customer service department received a complaint from one of our clients about _______ language use of the staff</p>
+          <p>7. Learning objecttives should be _______ to the studens' needs.</p>
+          <p>8. We've set ourselves a series of goals to _______ by the end of the year.</p>
+          <p>9. Young and _______ candidates are required for a business manager position.</p>
+          <p>10. _______ are used to draw attention to important information within a document.</p>
+      </b-card>
+    </div>
 
     <div>
-      <b-card no-body class="text-center">          
-        <div class="bg-secondary text-light">
-            <div class="text-left">
-                Exercise
-                <p>Fill in the blanks with the most appropriate words.</p>
-                <p>1. The idea with young children is to _______ learning with play.</p>
-                <p>2. The participants in this study _______ of 27 males and 31 females.</p>
-                <p>3. Many education studens decide to do their internship training at famous _______ institutions.</p>
-                <p>4. An international environmental _______ was established for the interchange of new approaches</p>
-                <p>5. Your project _______ a large  amount os money to complete.</p>
-                <p>6. The customer service department received a complaint from one of our clients about _______ language use of the staff</p>
-                <p>7. Learning objecttives should be _______ to the studens' needs.</p>
-                <p>8. </p>
-
-            </div> 
-          
-        </div>
+      <b-card
+        text-variant="white"
+        style="width: 1100px;border-radius: 5px;"
+        class="text-center my-2 bodycard">
+        <b-card-text>Cohesive Devices</b-card-text>
       </b-card>
+      <table class="table bodycard table-borderless text-center">
+        <thead>
+          <tr>
+            <th scope="col">Comparison</th>
+            <th scope="col">Addition</th>
+            <th scope="col">Result</th>
+            <th scope="col">Contrast</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>            
+            <td>also</td>
+            <td>and</td>
+            <td>So</td>
+            <td>in comparison</td>
+          </tr>
+          <tr>            
+            <td>equally</td>
+            <td>also</td>
+            <td>therefore</td>
+            <td>in contrast</td>
+          </tr>
+          <tr>            
+            <td>similarly</td>
+            <td>furthermore</td>
+            <td>as a result</td>
+            <td>instead</td>
+          </tr>
+          <tr>            
+            <td>likewise</td>
+            <td>too</td>
+            <td>thus</td>
+            <td>on the other hand</td>
+          </tr>
+          <tr>            
+            <td>compared with</td>
+            <td>In addition,</td>
+            <td>because</td>
+            <td>conversely</td>
+          </tr>                      
+        </tbody>
+      </table>
     </div>
   </div>
 </template>
