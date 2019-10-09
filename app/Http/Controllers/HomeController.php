@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\User;
+use Illuminate\Checkword;
+
 
 class HomeController extends Controller
 {
@@ -24,5 +27,14 @@ class HomeController extends Controller
     public function index()
     {
         return view('layouts/app');
+    }
+    public function checkword(Request $request)
+    {
+
+    }
+     public function relation($id)
+    {
+        $user = User::find($id)->history();
+        return $user;
     }
 }
