@@ -16,21 +16,63 @@
         <tbody>
             <tr>
             <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td>drop</td>
+            <td>v.</td>
+            <td>ตก, น้อยลง, ลดลง</td>
             </tr>
             <tr>
             <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td>remain steady</td>
+            <td>v.</td>
+            <td>คงที่</td>
             </tr>
             <tr>
             <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
+            <td>increase</td>
+            <td>v.</td>
+            <td>เพิ่มขึ้น</td>
+            </tr>
+            <tr>
+            <th scope="row">4</th>
+            <td>decrease</td>
+            <td>v.</td>
+            <td>ลดลง</td>
+            </tr>
+            <tr>
+            <th scope="row">5</th>
+            <td>fluctuate</td>
+            <td>v.</td>
+            <td>ผันผวน, แปรปรวน</td>
+            </tr>
+            <tr>
+            <th scope="row">6</th>
+            <td>dramatically</td>
+            <td>adv.</td>
+            <td>เพิ่มขึ้น</td>
+            </tr>
+            <tr>
+            <th scope="row">7</th>
+            <td>remain(ed) stable</td>
+            <td>v.</td>
+            <td>คงที่, เหมือนเดิม</td>
+            </tr>
+            <tr>
+            <th scope="row">8</th>
+            <td>grow</td>
+            <td>v.</td>
+            <td>เติบโต, เพิ่มขึ้น</td>
+            </tr>
+            <tr>
+            <th scope="row">9</th>
+            <td>gradually</td>
+            <td>adv.</td>
+            <td>ทีละนิดทีละน้อย, ค่อยๆ</td>
+            </tr>
+            <tr>
+            <th scope="row">10</th>
+            <td>slightly</td>
+            <td>adv.</td>
+            <td>เล็กน้อย</td>
             </tr>
         </tbody>
         </table>
