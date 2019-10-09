@@ -1,6 +1,7 @@
 <?php
 
 namespace App;
+use App\Checkword;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -39,6 +40,6 @@ class User extends Authenticatable
     ];
 
     public function history(){
-        return $this->hasOne(Checkword::class);
+        return $this->hasMany(Checkword::class);
     }
 }
