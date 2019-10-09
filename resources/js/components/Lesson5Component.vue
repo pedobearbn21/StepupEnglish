@@ -107,13 +107,25 @@
     </div>
 
     <div>
+      <b-card class="bodycard text-left mt-3">          
+          B. LanguageFocus
+          <p class="text-center">Cohesive Devices</p>
+          &emsp;Cohesive devices tell the reader  what we are doing in a sentence  and help to guide them through our writing. They signal to the reader what the relationships  are between  the different clauses,  sentences  and paragraphs. Let’s  look at two examples below. 
+          <p>-The public  transport in this city is unreliable  and it’s cheap.</p>
+          <p>-The public  transport in this city is unreliable  but it’s cheap.</p>
+          <p>There are two cohesive devices  in the sentences above: ‘and’ and ‘but’. Both give the reader different  signals and change  the meaning of the sentence.</p>
+      </b-card>
+    </div>
+
+    <div>
       <b-card
         text-variant="white"
         style="width: 1160px;border-radius: 10px;"
-        class="text-center my-2 bodycard">
-        <b-card-text>Cohesive Devices</b-card-text>
+        class="text-center my-2 bodycard mt-3 font-big">
+        <b-card-text >Cohesive Devices</b-card-text>
       </b-card>
-      <table class="table bodycard table-borderless text-center">
+      
+      <table class="table bodycard table-borderless text-center mt-3">
         <thead>
           <tr>
             <th scope="col">Comparison</th>
@@ -156,7 +168,7 @@
         </tbody>
       </table>
 
-        <table class="table bodycard table-borderless text-center">
+        <table class="table bodycard table-borderless text-center mt-3">
         <thead>
           <tr>
             <th scope="col">Exemplification</th>
@@ -173,28 +185,28 @@
             <td>in other words</td>
           </tr>
           <tr>            
-            <td>For</td>
-            <td>also</td>
-            <td>therefore</td>
-            <td>in contrast</td>
+            <td>For instance</td>
+            <td>Second</td>
+            <td>however</td>
+            <td>put more simply</td>
           </tr>
           <tr>            
-            <td>similarly</td>
-            <td>furthermore</td>
-            <td>as a result</td>
-            <td>instead</td>
+            <td>To illustrate</td>
+            <td>Next,</td>
+            <td>although</td>
+            <td>that is to say</td>
           </tr>
           <tr>            
-            <td>likewise</td>
-            <td>too</td>
-            <td>thus</td>
-            <td>on the other hand</td>
+            <td>such as</td>
+            <td>Then,</td>
+            <td>except</td>
+            <td>rather</td>
           </tr>
           <tr>            
-            <td>compared with</td>
-            <td>In addition,</td>
-            <td>because</td>
-            <td>conversely</td>
+            <td>namely</td>
+            <td>After,</td>
+            <td>unless</td>
+            <td>in simple terms</td>
           </tr>                      
         </tbody>
         </table>
