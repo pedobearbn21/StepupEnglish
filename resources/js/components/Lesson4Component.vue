@@ -70,7 +70,7 @@
             </tr>
             <tr>
             <th scope="row">10</th>
-            <td>slightly</td>.
+            <td>slightly</td>
             <td>adv.</td>
             <td class="text-left">a little</td>
             </tr>
