@@ -23,7 +23,7 @@
             <router-link to="/lesson5" ><h6 class="card-text">Lesson 5</h6></router-link>
             <router-link to="/lesson6" ><h6 class="card-text">Lesson 6</h6></router-link>
       </b-collapse>
-      <b-card-text><b-link href=''><h5 class="mb-0">Check Class</h5></b-link></b-card-text>
+      <checkclass-component></checkclass-component>
 
       <template v-slot:footer class="vertical-last text-center">
         <b-button block onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Sign Out</b-button>
