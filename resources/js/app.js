@@ -53,6 +53,7 @@ Vue.component('lesson1-component', require('./components/Lesson1Component.vue').
 Vue.component('layout-component', require('./components/LayoutComponent.vue').default);
 Vue.component('translate-component', require('./components/TranslateComponent.vue').default);
 Vue.component('checkclass-component', require('./components/CheckComponent.vue').default);
+Vue.component('blank', require('./components/BlanckSpaceComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
