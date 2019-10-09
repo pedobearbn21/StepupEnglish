@@ -109,7 +109,7 @@
     <div>
       <b-card
         text-variant="white"
-        style="width: 1100px;border-radius: 5px;"
+        style="width: 1160px;border-radius: 10px;"
         class="text-center my-2 bodycard">
         <b-card-text>Cohesive Devices</b-card-text>
       </b-card>
@@ -155,6 +155,49 @@
           </tr>                      
         </tbody>
       </table>
+
+        <table class="table bodycard table-borderless text-center">
+        <thead>
+          <tr>
+            <th scope="col">Exemplification</th>
+            <th scope="col">Sequencing</th>
+            <th scope="col">Qualifying</th>
+            <th scope="col">Reformulation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>            
+            <td>For example</td>
+            <td>First,</td>
+            <td>But</td>
+            <td>in other words</td>
+          </tr>
+          <tr>            
+            <td>For</td>
+            <td>also</td>
+            <td>therefore</td>
+            <td>in contrast</td>
+          </tr>
+          <tr>            
+            <td>similarly</td>
+            <td>furthermore</td>
+            <td>as a result</td>
+            <td>instead</td>
+          </tr>
+          <tr>            
+            <td>likewise</td>
+            <td>too</td>
+            <td>thus</td>
+            <td>on the other hand</td>
+          </tr>
+          <tr>            
+            <td>compared with</td>
+            <td>In addition,</td>
+            <td>because</td>
+            <td>conversely</td>
+          </tr>                      
+        </tbody>
+        </table>
     </div>
   </div>
 </template>
