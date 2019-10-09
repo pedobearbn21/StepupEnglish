@@ -19,4 +19,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/checkword/word', 'HomeController@checkword');
-Route::get('/checkrelation/$id', 'HomeController@')
+Route::get('/checkrelation/$id', 'HomeController@relation');
