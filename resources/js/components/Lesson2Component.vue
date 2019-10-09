@@ -1,7 +1,7 @@
 <template>
     <div class="container table-responsive" style="text-align: -webkit-center;">
 
-        <b-card  text-variant="white"  style="width: 150px;      border-radius: 10px;" class="text-center my-2 bodycard">
+        <b-card  text-variant="white"  style="width: 150px; border-radius: 10px;" class="text-center my-2 bodycard">
             <b-card-text>บทที่2</b-card-text>
         </b-card>
         <table class="table bodycard table-borderless text-center table-hover">

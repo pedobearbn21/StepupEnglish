@@ -33,7 +33,7 @@
 
             <nav class='navbar-light'>
             <nav class='top-right links navbar-position bodycard'>
-                <div class="my-1 py-2 mx-4">
+                <div class="py-2 mx-4">
                     <!-- <a class="navbar-brand" href="{{ url('/') }}">
                         {{ config('app.name', 'Laravel')    }}
                     </a> -->
