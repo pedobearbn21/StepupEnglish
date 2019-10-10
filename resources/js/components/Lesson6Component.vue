@@ -66,7 +66,7 @@
             <th scope="row">9</th>
             <td>certificayion</td>
             <td>n.</td>
-            <td class="text-left">Proof or a document proving that something is qualified for a particular job, or that something is of good quality.</td>
+            <td class="text-left">Proof or a document proving that something is qualified for a particular job, <br/>or that something is of good quality.</td>
             </tr>
             <tr>
             <th scope="row">10</th>

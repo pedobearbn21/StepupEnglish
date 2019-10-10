@@ -19,7 +19,7 @@
             <td>v.</td>
             <td
             class="text-left"
-            >To get something that you want from someone, such as information, money etc,especially when they do not want to give it to you</td>
+            >To get something that you want from someone, such as information, money etc,especially <br>when they do not want to give it to you</td>
             </tr>
             <tr>
             <th scope="row">2</th>
@@ -83,7 +83,7 @@
             <td>adj.</td>
             <td 
             class="text-left"
-            >(Especially of equipment),using, based on, or used in a systems of operation that involves the control of electric current by various devices.</td>
+            >(Especially of equipment),using, based on, or used in a systems of operation that involves <br>the control of electric current by various devices.</td>
             </tr>
             <tr>
             <th scope="row">10</th>
