@@ -78,7 +78,7 @@
         </table>
     <p></p>
     <div>
-      <b-card class="bodycard text-left">
+      <b-card class="bodycard text-left bodycard">
           Exercise
           <p>Fill in the blanks with the most appropriate words.</p>
           <p>1. We aim to _______ the company by giving the customer a better deal.</p>
