@@ -20,7 +20,7 @@
         fab
         small
       >
-        <translate-component></translate-component>
+        <trans-component></trans-component>
       </v-btn>
     </v-speed-dial>
 </template>

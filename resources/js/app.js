@@ -16,14 +16,13 @@ import lesson3 from './components/Lesson3Component.vue'
 import lesson4 from './components/Lesson4Component.vue'
 import lesson5 from './components/Lesson5Component.vue'
 import lesson6 from './components/Lesson6Component.vue'
-import example from './components/ExampleComponent.vue'
-import checkclass from './components/CheckComponent.vue'
 import Vuetify from 'vuetify'
 import '@fortawesome/fontawesome-free/css/all.css'
 import '@fortawesome/fontawesome-free/js/all.js'
 import VueSweetalert2 from 'vue-sweetalert2';
 import 'sweetalert2/dist/sweetalert2.min.css';
 import axios from 'axios';
+import trans from './components/TransComponent.vue';
 
 Vue.use(axios)
 Vue.use(Vuetify)
@@ -54,6 +53,7 @@ Vue.component('layout-component', require('./components/LayoutComponent.vue').de
 Vue.component('translate-component', require('./components/TranslateComponent.vue').default);
 Vue.component('checkclass-component', require('./components/CheckComponent.vue').default);
 Vue.component('blank', require('./components/BlanckSpaceComponent.vue').default);
+Vue.component('trans-component', require('./components/TransComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -68,6 +68,7 @@ const routes = [
     { path: '/lesson4',component: lesson4 },
     { path: '/lesson5',component: lesson5 },
     { path: '/lesson6',component: lesson6 },
+    { path: '/lesson1',component: trans },
 ]
 
 const router = new VueRouter({

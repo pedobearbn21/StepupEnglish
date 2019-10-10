@@ -18,5 +18,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::post('/checkword/class', 'HomeController@checkword');
-Route::get('/checkrelation/{id}', 'HomeController@relation');
+Route::get('/checkword', 'HomeController@checkword');
+Route::get('/checkrelation', 'HomeController@relation');
+Route::get('/user/{id}', function ($id) {
+    return dd($id);
+});

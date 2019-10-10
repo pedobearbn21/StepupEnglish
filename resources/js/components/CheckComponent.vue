@@ -12,6 +12,7 @@ export default {
             random: [],
             namedict: [],
             testing: [],
+            score: 0,
             texttest: 'Texttest'
 
 
@@ -24,9 +25,11 @@ export default {
                 if(( this.random.includes(item) ) == false) {
                     this.random.push(item);
                     this.namedict.push(Object.getOwnPropertyNames(item));
+                    for (var key in item){
+                        this.testing.push(item[key]);
+                    }
                 }
             }
-            let Inter;
             const { value: formValues } = await this.$swal.fire({
             title: 'Multiple inputs',
             html:
@@ -54,16 +57,27 @@ export default {
             });
 
             if (formValues) {
-            this.$swal.fire(JSON.stringify(formValues))
-            for (let index = 0; index < this.namedict.length; index++) {
-                const itemdata = this.namedict[index];
-                this.testing.push(this.namedict[index][0]);
+                console.log(formValues);
+                for (let index = 0; index < formValues.length; index++) {
+                    if( formValues[index] ==  this.testing[index]){
+                        console.log(formValues[index] +'=='+ this.testing[index]);
+                        this.score = this.score+1;
 
-            }
-            console.log(this.testing);
-            if(formValues[index] == this.random[index][0]){
+                    }
+                }
+                if(this.score == 5){
+                    axios.get('/checkword', {
 
-            }
+                    })
+                    .then(function (response) {
+                        console.log(response);
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+                    // window.location.href = 'http://localhost:8000/checkword/0/check';
+                }
+            // this.$swal.fire(JSON.stringify(formValues));
             this.$swal.fire('Good job!','success');
             this.random = [];
             }

@@ -32,14 +32,18 @@ class HomeController extends Controller
     public function checkword()
     {
         $user = Auth::user();
+        // $checkclass = new Checkword;
+        // $checkclass->check_id = $user->id;
         $user->history;
-        $user->history[0]->check_id = $user->id;
+        // $user->history[0]->check_id = $user->id;
         $user->history[0]->user_id = $user->id;
+
+        return dd($user->history);
     }
-    public function relation($id)
+    public function relation()
     {
-        $user = User::find($id);
+        $user = Auth::user();
         $user->history;
-        return $user;
+        dd($user);
     }
 }
