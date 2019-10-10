@@ -4,7 +4,7 @@
         <b-card  text-variant="white"  style="width: 150px;      border-radius: 10px;" class="text-center my-2 bodycard">
             <b-card-text>บทที่6</b-card-text>
         </b-card>
-        <table class="table bodycard table-borderless text-center table-hover">
+        <table rules='all' class="table bodycard table-borderless text-center table-hover ">
         <thead>
             <tr>
             <th scope="col">#</th>
@@ -93,7 +93,7 @@
         <p>&nbsp;a. apply &nbsp;&nbsp;&nbsp;&nbsp; b. design &nbsp;&nbsp;&nbsp;&nbsp; c. demonstrate &nbsp;&nbsp;&nbsp;&nbsp; d. practice</p>
     </b-card>
     </div>
-    
+
     <div>
     <b-card class="bodycard text-left mt-3">
         <p class="font-big">Directions: Finish the following statements using the correct words from the vocabulary chart above.</p>

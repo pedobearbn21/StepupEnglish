@@ -23947,3 +23947,7 @@ input[type=color].form-control:disabled {
   transform: translateY(-100%);
 }
 
+table.table.bodycard.table-borderless.text-center.table-hover {
+  -webkit-text-fill-color: white !important;
+}
+

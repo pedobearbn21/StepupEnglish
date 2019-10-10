@@ -7,7 +7,7 @@
     >
       <b-card-text>บทที่5</b-card-text>
     </b-card>
-    <table class="table bodycard table-borderless text-center">
+    <table class="table bodycard table-borderless text-center table-hover">
       <thead>
         <tr>
           <th scope="col">#</th>
@@ -107,10 +107,10 @@
     </div>
 
     <div>
-      <b-card class="bodycard text-left mt-3">          
+      <b-card class="bodycard text-left mt-3">
           B. LanguageFocus
           <p class="text-center">Cohesive Devices</p>
-          &emsp;Cohesive devices tell the reader  what we are doing in a sentence  and help to guide them through our writing. They signal to the reader what the relationships  are between  the different clauses,  sentences  and paragraphs. Let’s  look at two examples below. 
+          &emsp;Cohesive devices tell the reader  what we are doing in a sentence  and help to guide them through our writing. They signal to the reader what the relationships  are between  the different clauses,  sentences  and paragraphs. Let’s  look at two examples below.
           <p>-The public  transport in this city is unreliable  and it’s cheap.</p>
           <p>-The public  transport in this city is unreliable  but it’s cheap.</p>
           <p>There are two cohesive devices  in the sentences above: ‘and’ and ‘but’. Both give the reader different  signals and change  the meaning of the sentence.</p>
@@ -124,7 +124,7 @@
         class="text-center my-2 bodycard mt-3 font-big">
         <b-card-text >Cohesive Devices</b-card-text>
       </b-card>
-      
+
       <table class="table bodycard table-borderless text-center mt-3">
         <thead>
           <tr>
@@ -135,36 +135,36 @@
           </tr>
         </thead>
         <tbody>
-          <tr>            
+          <tr>
             <td>also</td>
             <td>and</td>
             <td>So</td>
             <td>in comparison</td>
           </tr>
-          <tr>            
+          <tr>
             <td>equally</td>
             <td>also</td>
             <td>therefore</td>
             <td>in contrast</td>
           </tr>
-          <tr>            
+          <tr>
             <td>similarly</td>
             <td>furthermore</td>
             <td>as a result</td>
             <td>instead</td>
           </tr>
-          <tr>            
+          <tr>
             <td>likewise</td>
             <td>too</td>
             <td>thus</td>
             <td>on the other hand</td>
           </tr>
-          <tr>            
+          <tr>
             <td>compared with</td>
             <td>In addition,</td>
             <td>because</td>
             <td>conversely</td>
-          </tr>                      
+          </tr>
         </tbody>
       </table>
 
@@ -178,36 +178,36 @@
           </tr>
         </thead>
         <tbody>
-          <tr>            
+          <tr>
             <td>For example</td>
             <td>First,</td>
             <td>But</td>
             <td>in other words</td>
           </tr>
-          <tr>            
+          <tr>
             <td>For instance</td>
             <td>Second</td>
             <td>however</td>
             <td>put more simply</td>
           </tr>
-          <tr>            
+          <tr>
             <td>To illustrate</td>
             <td>Next,</td>
             <td>although</td>
             <td>that is to say</td>
           </tr>
-          <tr>            
+          <tr>
             <td>such as</td>
             <td>Then,</td>
             <td>except</td>
             <td>rather</td>
           </tr>
-          <tr>            
+          <tr>
             <td>namely</td>
             <td>After,</td>
             <td>unless</td>
             <td>in simple terms</td>
-          </tr>                      
+          </tr>
         </tbody>
         </table>
     </div>

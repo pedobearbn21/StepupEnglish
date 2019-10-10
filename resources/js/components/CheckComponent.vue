@@ -30,7 +30,7 @@ export default {
                 onBeforeOpen: () => {
                     Inter = setInterval(() => {
                     this.$swal.getContent().querySelector('strong')
-                        .textContent = 'item'
+                        .textContent = 'item';
                     })
                 },
             focusConfirm: false,
