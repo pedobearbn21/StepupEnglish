@@ -4,7 +4,7 @@
             <b-card-text>บทที่3</b-card-text>
         </b-card>
         <table class="table bodycard table-borderless text-center   table-hover">
-        <thead>
+        <thead class= "childcard">
             <tr>
             <th scope="col">#</th>
             <th scope="col">Word</th>
@@ -106,7 +106,7 @@
         </table>
             <p></p>
     <div>
-      <b-card class="bodycard text-left">
+      <b-card class="bodycard text-left ">
           <p class="font-big">Vocabulary Exercise</p>
           <p>1.  Details of meetings and social _______________ are sent out to all club members.</p>
           <p>2.  The music band will have more music coming up, so ________   _and you won’t miss the newest singles.</p>
@@ -125,11 +125,12 @@
           <p>15. The government increased prices on several basic ______________ like bread and meat.</p>
       </b-card>
     </div>
-         <table class="table bodycard table-borderless text-center mt-3">
         
+         <table class="table bodycard table-borderless text-center mt-3">
         <thead>
-            <tr>
-            <th scope="col"></th>
+            <th class="font-big ">Present Perfect Tense</th>
+            <tr> 
+            <th scope="col">Subject Pronouns</th>
             <th scope="col">Affirmative</th>
             <th scope="col">Negative</th>
             <th scope="col">Questions and Short Answers</th>

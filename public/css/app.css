@@ -23751,7 +23751,8 @@ input[type=color].form-control:disabled {
 }
 
 .childcard {
-  background: #3E367E !important;
+  background: #4f4786 !important;
+  border-radius: 31px !important;
 }
 
 .lessoncard {
