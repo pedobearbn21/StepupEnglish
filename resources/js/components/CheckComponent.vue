@@ -8,7 +8,14 @@
 export default {
     data() {
         return {
-            word: [{ one: 'หนึ่ง' },{two: 'สอง'},{three: 'สาม'},{four: 'สี่'},{five: 'ห้า'},{six: 'หก'}],
+            word: [{extract: 'สกัด' },{response: 'ตอบสนอง'},{confidential: 'ลับ'},{compose: 'ประกอบ'},{process: 'กระบวนการ'},{advantage: 'ความได้เปรียบ'},{interrupt: 'ขัดขวาง'},{institution: 'สถาบัน'},{electronic: 'อิเล็กทรอนิกส์'},{recipient: 'ผู้รับ'},
+            {socialnetworking: 'เครือข่ายทางสังคม' },{content: 'เนื้อหา'},{indecent: 'หยาบคาย'},{interact: 'โต้ตอบ'},{effect: 'ผล'},{threaten: 'ขู่'},{cyberbullying: 'กลั่นแกล้งในโลกไซเบอร์' },{addiction: 'การเสพติด'},{follower: 'ผู้ติดตาม'},{copyright: 'ลิขสิทธ์'},
+            {tabloid: 'จุลสาร' },{quarterly: 'ไตรมาส'},{staytuned: 'คอยติดตาม'},{abroad: 'ในต่างประเทศ'},{opinion: 'ความคิดเห็น'},{issue: 'ปัญหา'},{event: 'เหตุการณ์' },{notice: 'แจ้งให้ทราบ'},{commodity: 'สินค้า'},{horoscopeten: 'ดวงชะตา'},{budget: 'งบ'},{occasion: 'โอกาส'},{schedule: 'ตารางเวลา'},{obituary: 'ข่าวร้าย'},{fellowship: 'การคบหา'},
+            {drop: 'ลดลง' },{remainsteady: 'คงที่'},{increase: 'เพิ่มขึ้น'},{decrease: 'ลดลง'},{fluctuate: 'ขึ้น ๆ ลง ๆ'},{dramatically: 'อย่างรวดเร็ว'},{remainstable: 'มั่นคง' },{grow: 'เติบโต'},{gradually: 'ค่อยๆ'},{slightly: 'เล็กน้อย'},
+            {academic: 'วิชาการ' },{conference: 'การประชุม'},{bulletpoint: 'เครื่องหมายหัวข้อ'},{consist: 'ประกอบด้วย'},{integrate: 'รวบรวม'},{dynamic: 'ความคิดสร้างสรรค์'},{require: 'ต้องการ' },{offensive: 'ก้าวร้าว'},{relevant: 'ความเกี่ยวข้อง'},{achieve: 'บรรลุ'},
+            {attribute: 'คุณลักษณะ' },{accomplishment: 'ความสำเร็จ'},{capability: 'ความสามารถ'},{applyfor: 'ขอ'},{scholarship: 'ทุนการศึกษา'},{demonstrate: 'สาธิต'},{contain: 'บรรจุ' },{affiliation: 'การติดต่อ'},{certification: 'ได้รับการรับรอง'},{organized: 'จัดตั้ง'},
+            
+            ],
             random: [],
             namedict: [],
             testing: [],

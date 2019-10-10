@@ -34,7 +34,7 @@
             </tr>
             <tr>
             <th scope="row">4</th>
-            <td>apply (fon)</td>
+            <td>apply (for)</td>
             <td>v.</td>
             <td class="text-left">To request something, usually officially, especially in writing or by sending in a form.</td>
             </tr>
@@ -64,7 +64,7 @@
             </tr>
             <tr>
             <th scope="row">9</th>
-            <td>certificayion</td>
+            <td>certification</td>
             <td>n.</td>
             <td class="text-left">Proof or a document proving that something is qualified for a particular job, <br/>or that something is of good quality.</td>
             </tr>
