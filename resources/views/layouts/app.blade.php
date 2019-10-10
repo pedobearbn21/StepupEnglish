@@ -82,7 +82,7 @@
                     <!-- </div> -->
                 </div>
             </nav>
-        <main class="py-4 flex-center position-ref full-height">
+        <main class="py-4 full-height">
         <router-view></router-view>
             @yield('content')
 

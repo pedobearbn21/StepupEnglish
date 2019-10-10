@@ -7,7 +7,7 @@
     >
       <b-card-text>บทที่5</b-card-text>
     </b-card>
-    <table class="table bodycard table-borderless text-center">
+    <table class="table bodycard table-borderless text-center table-hover">
       <thead>
         <tr>
           <th scope="col">#</th>
@@ -88,26 +88,128 @@
         </tr>
       </tbody>
     </table>
+    <p></p>
+    <div>
+      <b-card class="bodycard text-left">
+          Exercise
+          <p>Fill in the blanks with the most appropriate words.</p>
+          <p>1. The idea with young children is to _______ learning with play.</p>
+          <p>2. The participants in this study _______ of 27 males and 31 females.</p>
+          <p>3. Many education studens decide to do their internship training at famous _______ institutions.</p>
+          <p>4. An international environmental _______ was established for the interchange of new approaches</p>
+          <p>5. Your project _______ a large amount os money to complete.</p>
+          <p>6. The customer service department received a complaint from one of our clients about _______ language use of the staff</p>
+          <p>7. Learning objecttives should be _______ to the studens' needs.</p>
+          <p>8. We've set ourselves a series of goals to _______ by the end of the year.</p>
+          <p>9. Young and _______ candidates are required for a business manager position.</p>
+          <p>10. _______ are used to draw attention to important information within a document.</p>
+      </b-card>
+    </div>
 
     <div>
-      <b-card no-body class="text-center">          
-        <div class="bg-secondary text-light">
-            <div class="text-left">
-                Exercise
-                <p>Fill in the blanks with the most appropriate words.</p>
-                <p>1. The idea with young children is to _______ learning with play.</p>
-                <p>2. The participants in this study _______ of 27 males and 31 females.</p>
-                <p>3. Many education studens decide to do their internship training at famous _______ institutions.</p>
-                <p>4. An international environmental _______ was established for the interchange of new approaches</p>
-                <p>5. Your project _______ a large  amount os money to complete.</p>
-                <p>6. The customer service department received a complaint from one of our clients about _______ language use of the staff</p>
-                <p>7. Learning objecttives should be _______ to the studens' needs.</p>
-                <p>8. </p>
-
-            </div> 
-          
-        </div>
+      <b-card class="bodycard text-left mt-3">
+          B. LanguageFocus
+          <p class="text-center">Cohesive Devices</p>
+          &emsp;Cohesive devices tell the reader  what we are doing in a sentence  and help to guide them through our writing. They signal to the reader what the relationships  are between  the different clauses,  sentences  and paragraphs. Let’s  look at two examples below.
+          <p>-The public  transport in this city is unreliable  and it’s cheap.</p>
+          <p>-The public  transport in this city is unreliable  but it’s cheap.</p>
+          <p>There are two cohesive devices  in the sentences above: ‘and’ and ‘but’. Both give the reader different  signals and change  the meaning of the sentence.</p>
       </b-card>
+    </div>
+
+    <div>
+      <b-card
+        text-variant="white"
+        style="width: 1160px;border-radius: 10px;"
+        class="text-center my-2 bodycard mt-3 font-big">
+        <b-card-text >Cohesive Devices</b-card-text>
+      </b-card>
+
+      <table class="table bodycard table-borderless text-center mt-3">
+        <thead>
+          <tr>
+            <th scope="col">Comparison</th>
+            <th scope="col">Addition</th>
+            <th scope="col">Result</th>
+            <th scope="col">Contrast</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>also</td>
+            <td>and</td>
+            <td>So</td>
+            <td>in comparison</td>
+          </tr>
+          <tr>
+            <td>equally</td>
+            <td>also</td>
+            <td>therefore</td>
+            <td>in contrast</td>
+          </tr>
+          <tr>
+            <td>similarly</td>
+            <td>furthermore</td>
+            <td>as a result</td>
+            <td>instead</td>
+          </tr>
+          <tr>
+            <td>likewise</td>
+            <td>too</td>
+            <td>thus</td>
+            <td>on the other hand</td>
+          </tr>
+          <tr>
+            <td>compared with</td>
+            <td>In addition,</td>
+            <td>because</td>
+            <td>conversely</td>
+          </tr>
+        </tbody>
+      </table>
+
+        <table class="table bodycard table-borderless text-center mt-3">
+        <thead>
+          <tr>
+            <th scope="col">Exemplification</th>
+            <th scope="col">Sequencing</th>
+            <th scope="col">Qualifying</th>
+            <th scope="col">Reformulation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>For example</td>
+            <td>First,</td>
+            <td>But</td>
+            <td>in other words</td>
+          </tr>
+          <tr>
+            <td>For instance</td>
+            <td>Second</td>
+            <td>however</td>
+            <td>put more simply</td>
+          </tr>
+          <tr>
+            <td>To illustrate</td>
+            <td>Next,</td>
+            <td>although</td>
+            <td>that is to say</td>
+          </tr>
+          <tr>
+            <td>such as</td>
+            <td>Then,</td>
+            <td>except</td>
+            <td>rather</td>
+          </tr>
+          <tr>
+            <td>namely</td>
+            <td>After,</td>
+            <td>unless</td>
+            <td>in simple terms</td>
+          </tr>
+        </tbody>
+        </table>
     </div>
   </div>
 </template>
