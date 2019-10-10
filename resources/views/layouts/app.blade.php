@@ -25,11 +25,13 @@
 </head>
 <body class='backgroundcard'>
     <div id="app">
-        <!-- <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm navbar-position "> -->
-        <!-- <nav class="navbar navbar-light"> -->
-        <div id="mySidenav" class="sidenav bodycard" style='bordor:none;' >
-            <navcard-component></navcard-component>
-        </div>
+            <!-- <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm navbar-position "> -->
+            <!-- <nav class="navbar navbar-light"> -->
+            <div id="mySidenav" class="sidenav bodycard" style='bordor:none;' >
+                <navcard-component></navcard-component>
+            </div>
+
+
 
             <nav class='navbar-light'>
             <nav class='top-right links navbar-position bodycard'>
@@ -82,6 +84,7 @@
                     <!-- </div> -->
                 </div>
             </nav>
+
         <main class="full-height">
         <router-view></router-view>
         <b-modal id="my-modal" class="">

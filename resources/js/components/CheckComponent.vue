@@ -82,16 +82,25 @@ export default {
                         console.log(error);
                     });
                     // window.location.href = 'http://localhost:8000/checkword/0/check';
-                    this.$swal.fire('Good job!','success');
+                    this.$swal.fire({
+                        type: 'success',
+                        title: 'Your Class has been Checked',
+                        showConfirmButton: false,
+                        timer: 1500
+                    })
                 }else{
-                    this.$swal.fire('Sad!','fail');
+                    this.$swal.fire({
+                        type: 'error',
+                        title: 'Oops...',
+                        text: 'You Failed..Try Agian!'
+                    })
                 }
             // this.$swal.fire(JSON.stringify(formValues));
             this.random = [];
             }else{
             this.random = [];
             }
-            
+
         }
     },
 

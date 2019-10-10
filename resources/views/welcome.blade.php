@@ -65,7 +65,7 @@
             }
         </style>
     </head>
-    <body>
+    <body class='backgroundcard'>
         <div class="flex-center position-ref full-height backgroundcard ">
         @yield('home')
 
@@ -84,10 +84,9 @@
             @endif
 
             <div class="">
-
-                <!-- <div id="app">
+                <div id="app">
                     <example-component></example-cpmponent>
-                </div> -->
+                </div>
                 <script type="text/javascript" src="js/app.js"></script>
             </div>
         </div>
