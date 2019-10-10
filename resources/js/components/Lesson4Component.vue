@@ -98,7 +98,7 @@
       <b-card
         text-variant="white"
         style="width: 1160px;border-radius: 10px;"
-        class="text-center my-2 bodycard">
+        class="text-center my-2 childcard">
         <b-card-text>3.1 Greeting the audience - Calling for people’s attention  </b-card-text>
       </b-card>
       <table class="table bodycard table-borderless text-center">
