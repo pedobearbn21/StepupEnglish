@@ -8,7 +8,7 @@
       <b-card-text>บทที่5</b-card-text>
     </b-card>
     <table class="table bodycard table-borderless text-center table-hover">
-      <thead>
+      <thead class = "childcard">
         <tr>
           <th scope="col">#</th>
           <th scope="col">Word</th>
@@ -31,7 +31,7 @@
           <td>n.</td>
           <td class="text-left">
             An event, at which there is a group of talks on a particular subject, or a meeting in which
-            <p>particular matters are discussed formally</p>
+            <br>particular matters are discussed formally
           </td>
         </tr>
         <tr>
@@ -109,24 +109,16 @@
     <div>
       <b-card class="bodycard text-left mt-3">
           B. LanguageFocus
-          <p class="text-center">Cohesive Devices</p>
+          <p class="text-center font-big">Cohesive Devices</p>
           &emsp;Cohesive devices tell the reader  what we are doing in a sentence  and help to guide them through our writing. They signal to the reader what the relationships  are between  the different clauses,  sentences  and paragraphs. Let’s  look at two examples below.
           <p>-The public  transport in this city is unreliable  and it’s cheap.</p>
           <p>-The public  transport in this city is unreliable  but it’s cheap.</p>
           <p>There are two cohesive devices  in the sentences above: ‘and’ and ‘but’. Both give the reader different  signals and change  the meaning of the sentence.</p>
-      </b-card>
-    </div>
-
+      <p class="text-center font-big">Cohesive Devices</p>
     <div>
-      <b-card
-        text-variant="white"
-        style="width: 1160px;border-radius: 10px;"
-        class="text-center my-2 bodycard mt-3 font-big">
-        <b-card-text >Cohesive Devices</b-card-text>
-      </b-card>
 
       <table class="table bodycard table-borderless text-center mt-3">
-        <thead>
+        <thead class= "childcard">
           <tr>
             <th scope="col">Comparison</th>
             <th scope="col">Addition</th>
@@ -169,7 +161,7 @@
       </table>
 
         <table class="table bodycard table-borderless text-center mt-3">
-        <thead>
+        <thead class= "childcard">
           <tr>
             <th scope="col">Exemplification</th>
             <th scope="col">Sequencing</th>
@@ -210,7 +202,11 @@
           </tr>
         </tbody>
         </table>
+    </div>      
+      </b-card>
     </div>
+
+
   </div>
 </template>
 

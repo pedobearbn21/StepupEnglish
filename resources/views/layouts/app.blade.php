@@ -82,7 +82,7 @@
                     <!-- </div> -->
                 </div>
             </nav>
-        <main class="py-4 full-height">
+        <main class="full-height">
         <router-view></router-view>
         <b-modal id="my-modal" class="">
         <div>

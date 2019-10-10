@@ -5,7 +5,7 @@
             <b-card-text>บทที่4</b-card-text>
         </b-card>
         <table class="table bodycard table-borderless text-center table-hover">
-        <thead>
+        <thead class= "childcard">
             <tr>
             <th scope="col">#</th>
             <th scope="col">Word</th>
@@ -78,7 +78,7 @@
         </table>
     <p></p>
     <div>
-      <b-card class="bodycard text-left">
+      <b-card class="bodycard text-left bodycard">
           Exercise
           <p>Fill in the blanks with the most appropriate words.</p>
           <p>1. We aim to _______ the company by giving the customer a better deal.</p>
@@ -100,10 +100,7 @@
         style="width: 1160px;border-radius: 10px;"
         class="text-center my-2 bodycard">
         <b-card-text>3.1 Greeting the audience - Calling for people’s attention  </b-card-text>
-      </b-card>
-      <table class="table bodycard table-borderless text-center">
-        <tbody>
-          <tr>            
+                  <tr>            
      <div>
       <b-card class="bodycard text-left">   
           <p>Give the audience a signal that you're ready to start. Take advantage of these few words to find a comfortable standing/sitting position and adapt your voice <br>to the size of the room.</p>
@@ -113,8 +110,8 @@
           <br>- Ladies and gentlemen. Good morning. It's a pleasure to be here with you today.
       </b-card>
     </div>
-          </tr>                      
-        </tbody>
+          </tr>  
+      </b-card>
       </table>
 
     <div>
@@ -123,28 +120,20 @@
         style="width: 1160px;border-radius: 10px;"
         class="text-center my-2 bodycard">
         <b-card-text>3.2 Introducing yourself  </b-card-text>
-      </b-card>
-    </div>
-
-     <div>
-      <b-card class="bodycard text-left">   
+              <b-card class="bodycard text-left">   
               - Let me introduce myself first. I'm Vinai Jaidee. 
           <br>- I'd like to introduce myself. I'm Vinai Jaidee from the Faculty of Liberal Arts.  
           <br>- Before I begin, let me tell you a little about myself. I'm Vinai Jaidee from the Faculty of Liberal Arts. 
       </b-card>
+      </b-card>
     </div>
 
-    <div>
       <b-card
         text-variant="white"
         style="width: 1160px;border-radius: 10px;"
         class="text-center my-2 bodycard">
-        <b-card-text>3.3 Stating the purpose of a talk - giving a short introduction    </b-card-text>
-      </b-card>
-    </div>
-
-     <div>
-      <b-card class="bodycard text-left">   
+        <b-card-text>3.3 Stating the purpose of a talk - giving a short introduction </b-card-text>    
+                <b-card class="bodycard text-left">   
               - My purpose today is to.....  
           <br>- What I want to do this afternoon is to.....  
           <br>- My objective today is to.....  
@@ -154,6 +143,7 @@
           <br>- This afternoon, I'd like to cover two topics of interest to the automobile industry,.....  
           <br>- I've been asked to......  - I've been invited here this morning to .....
       </b-card>
+      </b-card>
     </div>
 
     <div>
@@ -161,12 +151,8 @@
         text-variant="white"
         style="width: 1160px;border-radius: 10px;"
         class="text-center my-2 bodycard">
-        <b-card-text>3.4 Presenting Visuals - useful phrases and vocabulary   </b-card-text>
-      </b-card>
-    </div>
-
-     <div>
-      <b-card class="bodycard text-left">   
+        <b-card-text>3.4 Presenting Visuals - useful phrases and vocabulary  </b-card-text> 
+                <b-card class="bodycard text-left">   
               - As you will see from this graph... 
               <br>- I'd like to show you this chart on which you will see... 
               <br>- Let me draw your attention to this part of the graph. 
@@ -177,6 +163,7 @@
               <br>- The bar chart represents sales in our Asian outlets. 
               <br>- Here you can see a comparison between... 
       </b-card>
+      </b-card>
     </div>
 
     <div>
@@ -185,11 +172,7 @@
         style="width: 1160px;border-radius: 10px;"
         class="text-center my-2 bodycard">
         <b-card-text>3.5 Conclusions - useful phrases  </b-card-text>
-      </b-card>
-    </div>
-
-     <div>
-      <b-card class="bodycard text-left">   
+              <b-card class="bodycard text-left">   
               - We must focus our attention on... 
               <br>- What I suggest is... 
               <br>- There is a necessity for... 
@@ -204,8 +187,8 @@
               <br>- To conclude, I am happy / I regret to announce that ... 
               <br>- This brings me to the end of my presentation this morning/ afternoon/ evening.
       </b-card>
-    </div>    
-            
+      </b-card>
+    </div>   
     </div>
   </div>
 </template>

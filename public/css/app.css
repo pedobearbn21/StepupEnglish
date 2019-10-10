@@ -23750,6 +23750,11 @@ input[type=color].form-control:disabled {
   border-radius: 31px;
 }
 
+.childcard {
+  background: #4f4786 !important;
+  border-radius: 31px !important;
+}
+
 .lessoncard {
   top: 50%;
   left: 50%;
