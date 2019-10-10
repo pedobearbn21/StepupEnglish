@@ -4,7 +4,7 @@
             <b-card-text>บทที่1</b-card-text>
         </b-card>
         <table class="table bodycard table-borderless text-center table-hover">
-        <thead>
+        <thead class= "childcard">
             <tr>
             <th scope="col">#</th>
             <th scope="col">Word</th>
@@ -115,11 +115,11 @@
      <div>
       <b-card class="bodycard text-left mt-3">          
            LanguageFocus
-          <p class="text-center">The correct use of salutations and closing expressions</p>
+          <p class="text-center font-big">The correct use of salutations and closing expressions</p>
           &emsp;The correct salutation may depend on a company’s e-mail policy. The table below gives an overview of the possible salutations that can be used. In addition, the table includes the closing or ending expressions that can be used in an e-mail, which should correspond to the salutation.Informal salutation means informal closing statement; formal salutation means formal closing statement; no salutation means no closing statement.
         <table class="table bodycard table-borderless text-center mt-3">
             <thead>
-                <tr class="text-left">
+                <tr class="text-left childcard">
                     <th scope="col">Type</th>
                     <th scope="col">Salutations</th>
                     <th scope="col">Closings</th>
@@ -156,12 +156,12 @@
     <div>
       <b-card class="bodycard text-left mt-3">          
            
-          <p class="text-center">Opening sentences</p>
+          <p class="text-center font-big">Opening sentences</p>
           &emsp;Use one of the following phrases to refer to an earlier message sent or received, or to give a reason for wishing to contact someone.
 
         <table class="table bodycard table-borderless text-center mt-3">
             <thead>
-                <tr class="text-left">
+                <tr class="text-left childcard">
                     <th scope="col">Formal: Referring to an earlier message sent or received</th>
                    
                 </tr>
@@ -180,7 +180,7 @@
         </table>
         <table class="table bodycard table-borderless text-center mt-3">
             <thead>
-                <tr class="text-left">
+                <tr class="text-left childcard">
                     <th scope="col">Informal: Referring to an earlier message sent or received</th>
                    
                 </tr>
@@ -198,7 +198,7 @@
         </table>
         <table class="table bodycard table-borderless text-center mt-3">
             <thead>
-                <tr class="text-left">
+                <tr class="text-left childcard">
                     <th scope="col">Giving a reason for wishing to contact someone</th>
                    
                 </tr>
@@ -217,7 +217,7 @@
         </table>
         <table class="table bodycard table-borderless text-center mt-3">
             <thead>
-                <tr class="text-left">
+                <tr class="text-left childcard">
                     <th scope="col">Indicate attachments</th>
                    
                 </tr>
@@ -239,12 +239,12 @@ managers?</td>
     <div>
       <b-card class="bodycard text-left mt-3">          
            
-          <p class="text-center">Ending an E-mail</p>
+          <p class="text-center font-big">Ending an E-mail</p>
           &emsp;t is common to include a closing remark in an e-mail to let readers know that they have reached the end of a message. A closing remark may also be used to express your gratitude, or what you expect the reader to do (e.g. answer, provide information, etc.).
 
       <table class="table bodycard table-borderless text-center mt-3">
             <thead>
-                <tr class="text-left">
+                <tr class="text-left childcard">
                     <th scope="col">Formal: Closing remarks</th>
                    
                 </tr>
@@ -263,7 +263,7 @@ managers?</td>
         </table>
         <table class="table bodycard table-borderless text-center mt-3">
             <thead>
-                <tr class="text-left">
+                <tr class="text-left childcard">
                     <th scope="col">Informal: Closing remarks</th>
                    
                 </tr>
@@ -282,7 +282,7 @@ managers?</td>
         </table>
         <table class="table bodycard table-borderless text-center mt-3">
             <thead>
-                <tr class="text-left">
+                <tr class="text-left childcard">
                     <th scope="col">Offering further information or services</th>
                    
                 </tr>
@@ -300,7 +300,7 @@ managers?</td>
         </table>
         <table class="table bodycard table-borderless text-center mt-3">
             <thead>
-                <tr class="text-left">
+                <tr class="text-left childcard">
                     <th scope="col">Thanks</th>
                    
                 </tr>
@@ -319,7 +319,7 @@ managers?</td>
         </table>
         <table class="table bodycard table-borderless text-center mt-3">
             <thead>
-                <tr class="text-left">
+                <tr class="text-left childcard">
                     <th scope="col">Announcing activities</th>
                    
                 </tr>
