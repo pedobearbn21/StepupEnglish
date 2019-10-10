@@ -14,7 +14,6 @@ export default {
             {drop: 'ลดลง' },{remainsteady: 'คงที่'},{increase: 'เพิ่มขึ้น'},{decrease: 'ลดลง'},{fluctuate: 'ขึ้น ๆ ลง ๆ'},{dramatically: 'อย่างรวดเร็ว'},{remainstable: 'มั่นคง' },{grow: 'เติบโต'},{gradually: 'ค่อยๆ'},{slightly: 'เล็กน้อย'},
             {academic: 'วิชาการ' },{conference: 'การประชุม'},{bulletpoint: 'เครื่องหมายหัวข้อ'},{consist: 'ประกอบด้วย'},{integrate: 'รวบรวม'},{dynamic: 'ความคิดสร้างสรรค์'},{require: 'ต้องการ' },{offensive: 'ก้าวร้าว'},{relevant: 'ความเกี่ยวข้อง'},{achieve: 'บรรลุ'},
             {attribute: 'คุณลักษณะ' },{accomplishment: 'ความสำเร็จ'},{capability: 'ความสามารถ'},{applyfor: 'ขอ'},{scholarship: 'ทุนการศึกษา'},{demonstrate: 'สาธิต'},{contain: 'บรรจุ' },{affiliation: 'การติดต่อ'},{certification: 'ได้รับการรับรอง'},{organized: 'จัดตั้ง'},
-            
             ],
             random: [],
             namedict: [],
@@ -83,11 +82,16 @@ export default {
                         console.log(error);
                     });
                     // window.location.href = 'http://localhost:8000/checkword/0/check';
+                    this.$swal.fire('Good job!','success');
+                }else{
+                    this.$swal.fire('Sad!','fail');
                 }
             // this.$swal.fire(JSON.stringify(formValues));
-            this.$swal.fire('Good job!','success');
+            this.random = [];
+            }else{
             this.random = [];
             }
+            
         }
     },
 
