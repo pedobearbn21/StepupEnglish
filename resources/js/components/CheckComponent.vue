@@ -8,8 +8,10 @@
 export default {
     data() {
         return {
-            word: [],
+            word: [{ one: 'หนึ่ง' },{two: 'สอง'},{three: 'สาม'},{four: 'สี่'},{five: 'ห้า'},{six: 'หก'}],
             random: [],
+            namedict: [],
+            testing: [],
             texttest: 'Texttest'
 
 
@@ -17,22 +19,28 @@ export default {
     },
     methods: {
         async checkclass() {
+            for (let index = 0; this.random.length != 5 ; index++) {
+                var item = this.word[(Math.random()*this.word.length)|0];
+                if(( this.random.includes(item) ) == false) {
+                    this.random.push(item);
+                    this.namedict.push(Object.getOwnPropertyNames(item));
+                }
+            }
             let Inter;
             const { value: formValues } = await this.$swal.fire({
             title: 'Multiple inputs',
             html:
-                `${this.texttest}`+
+                `${this.namedict[0][0]}`+
                 '<input id="swal-input1" class="swal2-input">' +
+                `${this.namedict[1][0]}`+
                 '<input id="swal-input2" class="swal2-input">' +
+                `${this.namedict[2][0]}`+
                 '<input id="swal-input3" class="swal2-input">' +
+                `${this.namedict[3][0]}`+
                 '<input id="swal-input4" class="swal2-input">' +
+                `${this.namedict[4][0]}`+
                 '<input id="swal-input5" class="swal2-input">',
-                onBeforeOpen: () => {
-                    Inter = setInterval(() => {
-                    this.$swal.getContent().querySelector('strong')
-                        .textContent = 'item';
-                    })
-                },
+
             focusConfirm: false,
             preConfirm: () => {
                 return [
@@ -43,19 +51,21 @@ export default {
                 document.getElementById('swal-input5').value
                 ]
             }
-            })
+            });
 
             if (formValues) {
-            // this.$swal.fire(JSON.stringify(formValues))
-            for (let index = 0; index < 5; index++) {
-                var item = this.word[(Math.random()*this.word.length)|0];
-                if( item in this.word ) {
+            this.$swal.fire(JSON.stringify(formValues))
+            for (let index = 0; index < this.namedict.length; index++) {
+                const itemdata = this.namedict[index];
+                this.testing.push(this.namedict[index][0]);
 
-                }else{
-                    this.random.push(item);
-                }
+            }
+            console.log(this.testing);
+            if(formValues[index] == this.random[index][0]){
+
             }
             this.$swal.fire('Good job!','success');
+            this.random = [];
             }
         }
     },
