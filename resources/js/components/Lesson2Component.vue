@@ -95,18 +95,19 @@
                 <br>
         <div>
         <div>
-        <b-card class="table bodycard table-borderless text-center mt-3" style="text-align: -webkit-center;">
-        <table >
+        <b-card class="table bodycard table-borderless text-center mt-3">
+        <div >
             <br>
             <p class='font-big'>Object Pronouns</p>
-                <table class="table bodycard table-borderless text-center mt-3" style="text-align: -webkit-center;">
-                <thead>
+                <table class="table bodycard table-borderless text-center mt-3">
+                <thead class="childcard">
                     <tr>
-                        <p class='font-big childcard'>What are object pronouns?</p>
+                        <td class='font-big childcard'>What are object pronouns?</td>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
+                        <td>
                         <p class="text-left">&ensp;An object pronoun, also called objective pronoun, functions as the object of a verb or preposition, as distinguished from a subject or subjective pronoun, which is the subject of a verb.</p>
                         <li class="text-left">He begged her to live with him (“her” is the object of the verb “begged” and “him” is the object of the preposition “with”).</li>
                         <li class="text-left">She told them the truth (“them” is the object of the verb “told”).</li>
@@ -115,39 +116,38 @@
                         <li class="text-left">She's my friend. I really enjoy being with her.</li>
                         <li class="text-left">I like this film. I saw it last week.</li>
                         <br>
+                        </td>
                     </tr>
                 </tbody>
                 </table>
-            <tr>
-                <table class="table bodycard table-borderless text-center mt-3" style="text-align: -webkit-center;">
-                <thead>
+                <table class="table bodycard table-borderless text-center mt-3">
+                <thead class="childcard">
                     <tr>
-                        <p class='font-big childcard'>Object Pronouns</p>
+                        <td class='font-big childcard'>Object Pronouns</td>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody class="text-left">
                     <tr>
-                        <p class="text-left">&ensp;Object pronouns in English are the following : me, you, him, her, it, us, them </p>
-                        <p class="text-left">&ensp;Object pronouns come after either a verb (e.g "like") or a preposition (e.g "to").</p>
-                        <li class="text-left">I like you but you don't like me.</li>
-                        <li class="text-left">Do you really hate her?</li>
-                        <li class="text-left">She loves sitting next to him.</li>
-                        <li class="text-left">She always writes e-mails to us.</li>
+                        <td>
+                        <p>&ensp;Object pronouns in English are the following : me, you, him, her, it, us, them </p>
+                        <p>&ensp;Object pronouns come after either a verb (e.g "like") or a preposition (e.g "to").</p>
+                        <li>I like you but you don't like me.</li>
+                        <li>Do you really hate her?</li>
+                        <li>She loves sitting next to him.</li>
+                        <li>She always writes e-mails to us.</li>
                         <br>
+                        </td>
                     </tr>
                 </tbody>
                 </table>
-            </tr>
-        </table>
+        </div>
         </b-card>
         </div>
 
-        
-        <table class="table bodycard table-borderless text-center">
-            <thead>
-            <tr>
-                <th class="text-center font-big" colspan="5" scope="col">Pronouns</th>
-            </tr>
+        <div>
+        <b-card class="table bodycard table-borderless text-center">
+                <p class="text-center font-big" scope="col">Pronouns</p>
+            <table class="table bodycard table-borderless text-center mt-3">
             <tr class='childcard'>
                 <th scope="col">Subject pronouns</th>
                 <th scope="col">Object pronouns</th>
@@ -155,8 +155,6 @@
                 <th scope="col">Possessive pronouns</th>
                 <th scope="col">Reflexive pronouns</th>
             </tr>
-            </thead>
-            <tbody>
             <tr>            
                 <td>I</td>
                 <td>me</td>
@@ -205,9 +203,10 @@
                 <td>its</td>
                 <td>its</td>
                 <td>itself</td>
-            </tr>                     
-            </tbody>
-        </table>
+            </tr>
+            </table>                     
+        </b-card>
+        </div>
         </div>
     </div>
 </template>
